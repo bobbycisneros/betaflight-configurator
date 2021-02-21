@@ -1597,11 +1597,13 @@ OSD.chooseFields = function() {
                                                         F.RC_CHANNELS,
                                                         F.CAMERA_FRAME,
                                                         F.OSD_EFFICIENCY,
+                                                        F.OSD_UP_DOWN_REFERENCE,
                                                     ]);
                                                 }
                                                 if (semver.gte(FC.CONFIG.apiVersion, API_VERSION_1_44)) {
                                                     OSD.constants.DISPLAY_FIELDS = OSD.constants.DISPLAY_FIELDS.concat([
                                                         F.TOTAL_FLIGHTS,
+//                                                        F.OSD_UP_DOWN_REFERENCE,
                                                     ]);
                                                 }
                                             }
